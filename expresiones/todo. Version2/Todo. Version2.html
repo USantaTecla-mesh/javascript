@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mesh. Todo. Version2</title>
+</head>
+<body>
+    <script>
+        {
+        msg = "";
+        for (let x = 0; x < 19; x++) {
+            for (let y = 0; y < 19; y++) {
+                if (x <= 18 || y <= 18) {
+                    msg += " ";
+                } else {
+                    msg += "*";
+                }
+            }
+            msg += "\n";
+        }
+        console.log(msg);
+        }
+    </script>
+</body>
+</html>
